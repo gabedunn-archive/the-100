@@ -8678,12 +8678,11 @@ vue-loader@^15.7.0:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
-vue-plyr@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/vue-plyr/-/vue-plyr-6.0.0.tgz#04164852dec6157405a8dd3aa396486daab79618"
-  integrity sha512-o24s+RSpt8Fed6NA3VKPqaMRUC3p2PPUkR6LWUNp25Toh7OJg3kWnmNeyK7GEsUYYGv289MxZWmYG6ZWuR9BFg==
+vue-plyr@^6.0.4:
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/vue-plyr/-/vue-plyr-6.0.4.tgz#78834dc74537ae306d18d9e2e5cb0d42a1718efd"
+  integrity sha512-Om5jalZNYntrTCvPtyDx/YIUSo4YcxHBK2DQKr1u47Q5XsqGbCWB7ALBWbZWP0WptENt6oUKxokJ0RbRvDGy2Q==
   dependencies:
-    core-js "^3.3.2"
     plyr "^3.5.6"
     vue "^2.6.10"
 
