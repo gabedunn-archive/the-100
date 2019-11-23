@@ -2,7 +2,12 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/season/01">Season 01</router-link> |
+      <router-link to="/season/02">Season 02</router-link> |
+      <router-link to="/season/03">Season 03</router-link> |
+      <router-link to="/season/04">Season 04</router-link> |
+      <router-link to="/season/05">Season 05</router-link> |
+      <router-link to="/season/06">Season 06</router-link>
     </div>
     <router-view/>
   </div>
@@ -27,6 +32,6 @@
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #00aab9;
 }
 </style>
