@@ -1,27 +1,20 @@
 <template>
-  <section
-    class="container"
-    id="home"
+  <div
+    class="bg-black flex min-h-screen"
+    id="main"
   >
-    <div class="px-20 py-10">
-      <h1 class="text-6xl">The 100</h1>
-    </div>
-    <div class="season">
-      <div class="selector">
-        <season-selector />
-      </div>
-    </div>
-  </section>
+    <show-info />
+  </div>
 </template>
 
 <script>
   // @ is an alias to /src
-  import SeasonSelector from '../components/SeasonSelect.vue'
+  import ShowInfo from '../components/ShowInfo.vue'
 
   export default {
     name: 'home',
     components: {
-      SeasonSelector
+      ShowInfo
     }
   }
 </script>
