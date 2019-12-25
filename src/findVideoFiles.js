@@ -11,7 +11,7 @@ const main = () => {
     const seasonPath = join(videoPath, `The 100 S0${i + 1}`)
     files[i] = []
     readdirSync(seasonPath).forEach(file => {
-      if (file.split('.').pop() === 'mkv') {
+      if (file.split('.').pop() === 'mp4') {
         files[i].push(file)
       }
     })
