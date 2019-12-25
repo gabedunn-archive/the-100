@@ -3,9 +3,11 @@ import VuePlyr from 'vue-plyr'
 import App from './App.vue'
 import router from './router'
 import '@/assets/css/tailwind.css'
+import VModal from 'vue-js-modal'
 
 Vue.config.productionTip = false
 
+Vue.use(VModal)
 Vue.use(VuePlyr)
 
 new Vue({

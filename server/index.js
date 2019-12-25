@@ -17,7 +17,7 @@ const r = new Router()
 
 app.use(koaJson())
 // app.use(koaStatic(join(__dirname, '..', 'dist')))
-app.use(koaStatic(join('/home', 'redxtech', 'media', 'tv', 'The 100', 'The 100 S01')))
+app.use(koaStatic(join('/home', 'redxtech', 'media', 'tv', 'The 100')))
 app.use(cors)
 app.use(responseTime)
 app.use(bodyParser())
